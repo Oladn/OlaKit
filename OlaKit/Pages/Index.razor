@@ -1,5 +1,12 @@
 ﻿@page "/"
 
-<h1>Hello, world!</h1>
+<AuthorizeView>
+    <Authorized>
+        @context.User.Identity.Name
+    </Authorized>
+    <NotAuthorized>
+        <form>
 
-Welcome to your new app.
+        </form>
+    </NotAuthorized>
+</AuthorizeView>

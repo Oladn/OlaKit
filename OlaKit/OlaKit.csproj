@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\Ola\Ola.Extensions\Ola.Extensions.csproj" />
     <ProjectReference Include="..\..\Ola\Ola\Ola.csproj" />
     <ProjectReference Include="..\OlaKit.Extensions\OlaKit.Extensions.csproj" />
